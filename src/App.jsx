@@ -6,6 +6,7 @@ import Loader from "./components/common/Loader";
 import Header from "./components/layout/Header";
 import { useFlights } from "./api/actions/flightActions";
 import { SearchForm } from "./components/flights/SearchForm";
+import { mockFlights } from "./utils/constant";
 
 const App = () => {
   const [params, setParams] = useState(null);
@@ -32,6 +33,9 @@ const App = () => {
     }
   };
 
+  const flightsData =
+    flights?.length > 0 ? flights : mockFlights.data.itineraries;
+
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col w-full">
       {/* App header */}
@@ -56,7 +60,7 @@ const App = () => {
           {/* Display flight results only if not loading or error */}
           {!loading && !error && (
             <FlightList
-              itineraries={flights}
+              itineraries={flightsData}
               onEmptyResults={() => setError("No flights found")}
             />
           )}
