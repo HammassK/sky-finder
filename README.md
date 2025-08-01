@@ -1,12 +1,38 @@
-# React + Vite
+# ✈️ Flight Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Google Flights clone** built with **React**, **Tailwind CSS**, and the **Sky-Scrapper API** via RapidAPI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Real-time Flight Search** — Search for flights between airports around the world  
+- 🧠 **Smart Airport Auto-complete** — With debouncing for optimized user input   
+- 🖥️ **Responsive Design** — Mobile-first, works across all screen sizes  
+- 🎯 **Modern UI/UX** — Built with Tailwind CSS and Headless UI for accessibility  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Tech Stack
+
+### Frontend:
+- ⚛️ React 18  
+- 🎨 Tailwind CSS  
+- ♿ Headless UI  
+- 📅 React Date Picker  
+- 🎯 React Icons  
+
+### API & Data:
+- 🌍 Sky-Scrapper API (via RapidAPI)  
+- ⚡ React Query  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/sky-finder.git
+cd sky-finder    
+
