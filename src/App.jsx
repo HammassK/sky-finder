@@ -58,7 +58,7 @@ const App = () => {
           )}
 
           {/* Display flight results only if not loading or error */}
-          {!loading && !error && (
+          {!loading && (
             <FlightList
               itineraries={flightsData}
               onEmptyResults={() => setError("No flights found")}
